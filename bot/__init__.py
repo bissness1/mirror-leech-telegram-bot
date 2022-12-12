@@ -10,10 +10,9 @@ from time import sleep, time
 from threading import Thread, Lock
 from dotenv import load_dotenv
 from pyrogram import Client
-from pyrogram import enum
 from asyncio import get_event_loop
 from pymongo import MongoClient
-
+from pyrogram import enums
 main_loop = get_event_loop()
 
 faulthandler_enable()
