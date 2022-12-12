@@ -10,7 +10,7 @@ from time import sleep, time
 from threading import Thread, Lock
 from dotenv import load_dotenv
 from pyrogram import Client
-from pyrogram.enums import enums
+from pyrogram import enums
 from asyncio import get_event_loop
 from pymongo import MongoClient
 
